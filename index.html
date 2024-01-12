@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code generator</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body dir="rtl">
+    <div class="con">
+        <div class="head-sec">
+            <h1 class="m-b">تولید کننده کیو آرکُد</h1>
+            <p class="m-b">یه متن یا آدرس اینترنتی وارد کن  تا  کیو آرشو تولید کنم !</p>
+        </div>
+        <form>
+            <input type="text" id="addres-in" placeholder="یه متن یا آدرس وارد کن ..." class="m-b">
+            <button type="button" id="btn-generate-qrcode">تولید QR code</button>
+        </form>
+        <div class="qr-code hidden">
+            <img src="" alt="" id="qr-img">
+        </div>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>
